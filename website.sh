@@ -21,6 +21,10 @@ function testRegex(){
   open "http://regexr.com"
 }
 
+function angularMaterial(){
+  open "https://material.angularjs.org/latest/api/directive/mdIcon"
+}
+
 # just invoke the function by name
 if ! `$1`; then
   # $0 is the shell script path
